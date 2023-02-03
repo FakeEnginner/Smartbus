@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">SmartBus</string>
+    <string name="let_s_enjoy">Let's Enjoy A New                 World</string>
+    <string name="search_the_">Search the Safest destination</string>
+    <string name="get_started">Get Started</string>
+    <string name="login">Login</string>
+    <string name="Signup">SignUp</string>
+    <string name="name">Name</string>
+    <string name="Username">Username</string>
+    <string name="email">Email id</string>
+    <string name="signup_message">Are you a new User?</string>
+
+
+
+
+
 </resources>

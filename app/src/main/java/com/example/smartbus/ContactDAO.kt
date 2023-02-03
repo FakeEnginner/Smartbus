@@ -2,6 +2,7 @@ package com.example.smartbus
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
+import androidx.room.Query
 
 @Dao
 interface ContactDAO {
