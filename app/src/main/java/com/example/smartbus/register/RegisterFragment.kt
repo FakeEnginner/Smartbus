@@ -81,8 +81,8 @@ class RegisterFragment : Fragment() {
 
     private fun displayUsersList() {
         Log.i("MYTAG","insidisplayUsersList")
-        val action = RegisterFragmentDirections.actionRegisterFragmentToLoginFragment()
-        NavHostFragment.findNavController(this).navigate(action)
+      //  val action = RegisterFragmentDirections.actionRegisterFragmentToLoginFragment()
+        NavHostFragment.findNavController(this).navigate(R.id.action_registerFragment_to_loginFragment)
 
     }
 

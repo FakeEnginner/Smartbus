@@ -17,6 +17,7 @@ import com.example.smartbus.database.RegisterRepository
 import com.example.smartbus.databinding.UserDetailsFragmentBinding
 
 
+
 class UserDetailsFragment : Fragment() {
 
     private lateinit var userDetailsViewModel: UserDetailsViewModel
@@ -48,8 +49,8 @@ class UserDetailsFragment : Fragment() {
 
         userDetailsViewModel.navigateto.observe(this, Observer { hasFinished ->
             if (hasFinished == true) {
-                val action = UserDetailsFragmentDirection.actionUserDetailsFragmentToLoginFragment()
-                NavHostFragment.findNavController(this).navigate(action)
+              //  val action = UserDetailsFragmentDirection.actionUserDetailsFragmentToLoginFragment()
+                NavHostFragment.findNavController(this).navigate(R.id.action_userDetailsFragment_to_loginFragment)
                 userDetailsViewModel.doneNavigating()
             }
         })

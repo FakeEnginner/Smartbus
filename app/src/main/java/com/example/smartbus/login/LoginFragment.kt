@@ -88,14 +88,14 @@ class LoginFragment : Fragment() {
 
     private fun displayUsersList() {
         Log.i("MYTAG","insidisplayUsersList")
-        val action = LoginFragmentDirection.actionLoginFragmentToHomeFragment()
-        NavHostFragment.findNavController(this).navigate(action)
+       // val action = LoginFragmentDirection.actionLoginFragmentToHomeFragment()
+        NavHostFragment.findNavController(this).navigate(R.id.action_loginFragment_to_homeFragment)
 
     }
 
     private fun navigateUserDetails() {
         Log.i("MYTAG","insidisplayUsersList")
-        val action = LoginFragmentDirections.actionLoginFragmentToUserDetailsFragment()
-        NavHostFragment.findNavController(this).navigate(action)
+        //val action = LoginFragmentDirections.actionLoginFragmentToUserDetailsFragment()
+        NavHostFragment.findNavController(this).navigate(R.id.action_loginFragment_to_userDetailsFragment)
     }
 }
