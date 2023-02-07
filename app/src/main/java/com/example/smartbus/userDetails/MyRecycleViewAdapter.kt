@@ -30,7 +30,7 @@ class MyRecycleViewAdapter(private val usersList :List<RegisterEntity>):Recycler
 
 }
 
-class MyviewHolder(private val binding :ListItemBinding ):RecyclerView.ViewHolder(binding.root){
+class MyviewHolder(private val binding : ListItemBinding):RecyclerView.ViewHolder(binding.root){
 
     fun bind(user : RegisterEntity){
         binding.FirstNameTextView.text = user.firstName

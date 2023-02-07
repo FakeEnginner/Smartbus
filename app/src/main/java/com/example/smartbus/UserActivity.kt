@@ -6,12 +6,13 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 import com.example.smartbus.databinding.ListItemBinding
+import com.example.smartbus.databinding.ListItems1Binding
 
 class UserActivity: AppCompatActivity() {
-    private lateinit var binding: ListItemBinding
+    private lateinit var binding: ListItems1Binding
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
-        binding = ListItemBinding.inflate(layoutInflater)
+        binding = ListItems1Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
 
